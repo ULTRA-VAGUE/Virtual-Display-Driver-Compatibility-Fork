@@ -1,4 +1,51 @@
-# 🛠️ Virtual Display Driver Development Team
+# <img src="https://github.com/user-attachments/assets/22ff37ba-a8ea-4b65-b7b2-e7fcb09d858b" height="32" width="32"></img> Virtual Display Driver Compatibility Fork
+
+This project creates a _virtual monitor_ in Windows that functions just like a physical display. It is particularly useful for applications such as **streaming, virtual reality, screen recording,** and **headless servers—systems** that operate without a physical display attached. 
+
+Unlike traditional monitors, this virtual display supports custom resolutions and refresh rates beyond hardware limitations—offering greater flexibility for advanced setups. You can also use custom EDIDs to simulate or emulate existing hardware displays.
+
+
+> ⚠️ **VirusTotal Warning – False Positives (Explained)**
+
+I'm providing this **older version** of the Virtual Display Driver (VDD) because some users (especially on **Tensordock VMs**) have reported issues with the newer one – in some cases, it's not properly recognized after installation.
+
+This version works reliably in those setups.
+
+---
+
+### 🧪 VirusTotal Scan Results
+
+![VirusTotal Screenshot](./vdd-virustotal.png)
+
+I ran the file through [VirusTotal](https://virustotal.com), and here's the result:
+
+- ✅ **67 out of 71 antivirus engines** marked it as **clean**
+- ⚠️ **4 vendors** flagged it:
+  - `W32.AIDetectMalware` – Bkav Pro  
+  - `Malicious` – SecureAge  
+  - `Win/grayware_confidence_60%` – CrowdStrike Falcon  
+  - `BehavesLike.Win32.Generic.vc` – Skyhigh (SWG)
+
+These detections are **false positives** due to:
+- The driver calling WMI / behaving like debugging software
+- Overlay-related functions or long sleep cycles
+- No digital signature (which is common for niche tools like this)
+
+---
+
+### 🔐 What You Should Know
+
+- 🧠 This file is **unmodified**, originally from [ItsMikeTheTech](https://itsmikethetech.com/)
+- 💡 You’re welcome to **analyze or scan** it yourself if you have concerns
+- 🛡️ Windows Defender and most major AVs report it as safe
+
+---
+
+> I’m only sharing this older version for compatibility reasons.  
+
+
+
+
 
 | 👤 Developer          | 🏷️ Role                            | 💖 Support Us                                                                                                         |
 | --------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -6,11 +53,6 @@
 | **[Jocke](https://github.com/zjoasan)**       | Programmer, Concept Design  | [GitHub Sponsors ](https://github.com/sponsors/zjoasan) 💖                                                             |
 
 :bulb: *We appreciate your support—every contribution helps us keep building amazing experiences!*
-
-# <img src="https://github.com/user-attachments/assets/22ff37ba-a8ea-4b65-b7b2-e7fcb09d858b" height="32" width="32"></img> Virtual Display Driver
-This project creates a _virtual monitor_ in Windows that functions just like a physical display. It is particularly useful for applications such as **streaming, virtual reality, screen recording,** and **headless servers—systems** that operate without a physical display attached. 
-
-Unlike traditional monitors, this virtual display supports custom resolutions and refresh rates beyond hardware limitations—offering greater flexibility for advanced setups. You can also use custom EDIDs to simulate or emulate existing hardware displays.
 
 ## ⬇️ Download Latest Version
 
@@ -25,7 +67,7 @@ Unlike traditional monitors, this virtual display supports custom resolutions an
 ## 🛠️ Installation
 
 - Step 1: Download the Installer
-   - You can download the installer directly from the [Releases](https://github.com/VirtualDisplay/Virtual-Display-Driver/releases) page.
+   - You can download the installer directly from the [Releases]([https://github.com/VirtualDisplay/Virtual-Display-Driver/releases](https://github.com/ULTRA-VAGUE/Virtual-Display-Driver-Compatibility-Fork)) page.
 
 - Step 2: Run the Installer
    - Launch the installer.
