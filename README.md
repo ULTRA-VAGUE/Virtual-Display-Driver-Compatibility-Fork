@@ -48,7 +48,8 @@ These are **false positives**, likely caused by:
 
 ### 🔐 What You Should Know
 
-- 🧠 The file is **unmodified**, sourced from [ItsMikeTheTech](https://github.com/itsmikethetech)  
+- 🧠 The file is **unmodified**, sourced from [ItsMikeTheTech](https://github.com/itsmikethetech)
+- 🔒 SHA256: 755DFE973615DA34E904157D5D0962C8C14E74AB6BC5191A91720BB17D464515
 - 💡 Feel free to **scan or analyze** it yourself  
 - 🛡️ Most major AV tools (incl. Defender) report it as safe  
 
