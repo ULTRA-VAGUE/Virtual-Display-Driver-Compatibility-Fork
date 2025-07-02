@@ -68,7 +68,7 @@ These are **false positives**, likely caused by:
 
 ## ⬇️ Download The Compatibility Version
 
-- **[Installer for Windows 10/11](https://github.com/https://github.com/ULTRA-VAGUE/Virtual-Display-Driver-Compatibility-Fork/releases)**
+- **[Installer for Windows 10/11](https://github.com/ULTRA-VAGUE/Virtual-Display-Driver-Compatibility-Fork/releases)**
 
 Check the [Releases](https://github.com/ULTRA-VAGUE/Virtual-Display-Driver-Compatibility-Fork/releases) page for the latest version and changelog.
 
